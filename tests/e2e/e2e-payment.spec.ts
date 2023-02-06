@@ -1,10 +1,10 @@
-import { test, expect } from '@playwright/test'
+import { test} from '@playwright/test'
 import { HomePage } from '../../page_objects/HomePage'
 import { LoginPage } from '../../page_objects/LoginPage'
 import { PaymentPage } from '../../page_objects/PaymentPage'
 import { NavBar } from '../../page_objects/components/Navbar'
 
-test.describe.only("New Payment", () => {
+test.describe("New Payment", () => {
     let homePage: HomePage
     let loginPage: LoginPage
     let paymentPage: PaymentPage
